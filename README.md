@@ -27,7 +27,7 @@ This repository provides the official code for the paper [Iterative Loop Learnin
 
 ![](./img/Performance_comparison.png)
 
-For more information on DAFormer, please check our **[[Paper](https://arxiv.org/pdf/2301.13361.pdf)]**.
+For more information on STAL, please check our **[[Paper](https://arxiv.org/pdf/2301.13361.pdf)]**.
 
 ## Results
 ### GTAV to Cityscapes
