@@ -82,17 +82,6 @@ python datasets/rename_gta5.py
 
 next, move data to follow folder:
 
-```
-data/dataset
-├── gtFine
-│   ├── train
-│           ├── gta5
-│           ├── synthia
-└── leftImg8bit
-│   ├── train
-                ├── gta5
-                ├── synthia
-```
 ```angular2html
 data/dataset
 ├── gtFine
@@ -104,8 +93,8 @@ data/dataset
 └── leftImg8bit
     ├── test
     ├── train
-    │    ├──  gta5
-    │    ├──  synthia
+    │    ├── gta5
+    │    ├── synthia
     └── val
 ```
 
