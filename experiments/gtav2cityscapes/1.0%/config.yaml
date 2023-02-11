@@ -1,8 +1,8 @@
 dataset: # Required.
   type: cityscapes_semi_cp
   train:
-    data_root: ./data/dataset
-    data_list: ./data/splits/gtav2cityscapes/1.0%/labeled.txt
+    data_root: ./data/dataset   # absolute path
+    data_list: ./data/splits/gtav2cityscapes/1.0%/labeled.txt   # absolute path
     flip: True
     GaussianBlur: False
     rand_resize: [0.5, 2.0]
@@ -17,8 +17,8 @@ dataset: # Required.
       no_pad: True
       no_slim: True
   val:
-    data_root: ./data/dataset
-    data_list: ./data/splits/gtav2cityscapes/val.txt  # val or val_gtav
+    data_root: ./data/dataset  # absolute path
+    data_list: ./data/splits/gtav2cityscapes/val.txt  # absolute path  # val or val_gtav
     crop:
       type: center
       size: [769, 769] # crop image with HxW size

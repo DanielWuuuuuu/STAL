@@ -1,6 +1,6 @@
 #!/bin/bash
 now=$(date +"%Y%m%d_%H%M%S")
-job='synthia2cityscapes_2.2%'
+job='gtav2cityscapes_5.0%'
 
 mkdir -p log
 
@@ -11,4 +11,4 @@ python -m torch.distributed.launch \
     --node_rank=0 \
     --master_addr=localhost \
     --master_port=$2 \
-    ../../train.py --config=config.yaml --seed 1 --port $2 2>&1 | tee log/log_$now.txt
+    ../../../train.py --config=config.yaml --seed 1 --port $2 2>&1 | tee log/log_$now.txt

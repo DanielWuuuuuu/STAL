@@ -139,8 +139,6 @@ cd  experiments/splits/gtav2cityscapes/1.0%
 # use torch.distributed.launch
 sh train.sh <num_gpu> <port>
 
-# or use slurm
-# sh slurm_train.sh <num_gpu> <port> <partition>
 ```
 
 ### STAL Testing

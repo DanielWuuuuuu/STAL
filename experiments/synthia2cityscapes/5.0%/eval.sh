@@ -5,7 +5,7 @@ job='eval'
 mkdir -p log
 mkdir -p checkpoints/result
 
-python ../../eval.py \
+python ../../../eval.py \
     --base_size=2048 \
     --scales 1.0 \
     --config=config.yaml \
