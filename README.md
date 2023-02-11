@@ -27,7 +27,8 @@ This repository provides the official code for the paper [Iterative Loop Learnin
 
 <!-- ![image](./img/Performance_comparison.png) -->
 
-<div align=center><img width="619" height="514" src="./img/Performance_comparison.png"/></div>
+<div align="center"> <img width="100%" src="./img/Performance_comparison.png"></div>
+
 
 For more information on STAL, please check our **[[Paper](https://arxiv.org/pdf/2301.13361.pdf)]**.
 
@@ -161,7 +162,7 @@ This project is based on the following open-source projects: [U<sup>2</sup>PL](h
 If you find this project useful in your research, please consider citing:
 
 ```bibtex
-@article{guan2023iterative,
+@inproceedings{guan2023iterative,
   title={Iterative Loop Learning Combining Self-Training and Active Learning for Domain Adaptive Semantic Segmentation},
   author={Guan, Licong and Yuan, Xue},
   journal={arXiv preprint arXiv:2301.13361},
