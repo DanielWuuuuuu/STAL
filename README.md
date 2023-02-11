@@ -87,14 +87,14 @@ data/dataset
 ├── gtFine
 │   ├── test
 │   ├── train
-│   │    ├──  gta5
-│   │    ├──  synthia
+│   │   ├── gta5
+│   │   ├── synthia
 │   └── val
 └── leftImg8bit
     ├── test
     ├── train
-    │    ├── gta5
-    │    ├── synthia
+    │   ├── gta5
+    │   ├── synthia
     └── val
 ```
 
