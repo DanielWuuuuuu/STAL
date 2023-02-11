@@ -25,7 +25,9 @@ This repository provides the official code for the paper [Iterative Loop Learnin
 
 ![image](./img/pipeline.png)
 
-![image](./img/Performance_comparison.png)
+<!-- ![image](./img/Performance_comparison.png) -->
+
+<div align=center><img width="310" height="262" src="./img/Performance_comparison.png"/></div>
 
 For more information on STAL, please check our **[[Paper](https://arxiv.org/pdf/2301.13361.pdf)]**.
 
