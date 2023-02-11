@@ -93,6 +93,21 @@ data/dataset
                 ├── gta5
                 ├── synthia
 ```
+```angular2html
+data/dataset
+├── gtFine
+│   ├── test
+│   ├── train
+│   │    ├──  gta5
+│   │    ├──  synthia
+│   └── val
+└── leftImg8bit
+    ├── test
+    ├── train
+    │    ├──  gta5
+    │    ├──  synthia
+    └── val
+```
 
 </details>
 
